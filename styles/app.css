@@ -1,6 +1,6 @@
 header {
-  margin: 60px 0;
-  padding: 70px 20px;
+  margin: 90px 0;
+  padding: 70px 40px;
   background-image: url(https://as2.ftcdn.net/v2/jpg/04/96/35/41/1000_F_496354149_PXBCwImCfmmfXTuzKVJgFSAarsuZXBOs.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,4 +23,15 @@ p {
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 0.1em;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+img {
+  border-radius: 12px;
 }
