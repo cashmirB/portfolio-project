@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #fff;
+  --secondary-color: #f9f7fe;
+  --primary-font-family: "Nunito", sans-serif;
+  --secondary-font-family: "Roboto", sans-serif;
+}
+
 header {
   margin: 90px 0;
   padding: 70px 40px;
@@ -6,32 +13,71 @@ header {
   background-size: cover;
 }
 
-h1 {
-  font-family: "Nunito", sans-serif;
-  color: white;
+h1,
+p {
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
   text-align: center;
   font-weight: bold;
+}
+
+h1 {
   font-size: 66px;
   margin-bottom: 30px;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
-  color: white;
-  text-align: center;
-  font-weight: bold;
   font-size: 24px;
   line-height: 1.5;
-  letter-spacing: 0.1em;
 }
 
 h3 {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--primary-font-family);
   font-size: 28px;
   font-weight: bold;
   margin-top: 20px;
 }
 
+h6 {
+  padding: 6px;
+  font-family: var(--secondary-font-family);
+  font-weight: normal;
+  font-size: 16px;
+}
+
 img {
   border-radius: 12px;
+}
+
+footer {
+  background: var(--secondary-color);
+  padding: 20px;
+}
+
+@media (max-width: 576px) {
+  header {
+    background-image: none;
+    background-color: #948500;
+  }
+
+  h1 {
+    font-size: 46px;
+  }
+
+  h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  h6 {
+    font-size: 8px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  img {
+    width: 330px;
+  }
 }
