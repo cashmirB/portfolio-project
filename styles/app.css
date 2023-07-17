@@ -118,6 +118,51 @@ h3 {
   line-height: 2;
 }
 
+hr {
+  border-top: 1px dashed #67d5d2;
+}
+
+h1 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  text-align: center;
+  font-size: 72px;
+  margin: 90px 0;
+}
+
+.recipe-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.content h2 {
+  text-align: center;
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.content h3 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.content h4 {
+  font-family: var(--primary-font-family);
+  font-weight: bolder;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.content p {
+  color: black;
+  font-family: var(--primary-font-family);
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.7;
+}
+
 @media (max-width: 810px) {
   .index-banner {
     background-image: none;
