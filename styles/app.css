@@ -130,29 +130,32 @@ h1 {
   margin: 90px 0;
 }
 
-.recipe-image {
+.content img {
+  width: 900px;
   display: block;
   margin: 0 auto;
 }
 
-.content h2 {
-  text-align: center;
+.content h2,
+h3,
+h4 {
   font-family: var(--primary-font-family);
   font-weight: bold;
+}
+
+.content h2 {
+  text-align: center;
   font-size: 36px;
 }
 
 .content h3 {
-  font-family: var(--primary-font-family);
-  font-weight: bold;
   font-size: 24px;
 }
 
 .content h4 {
-  font-family: var(--primary-font-family);
-  font-weight: bolder;
   font-size: 24px;
   margin-bottom: 10px;
+  color: #f65282;
 }
 .content p {
   color: black;
@@ -216,6 +219,22 @@ h1 {
 
   .about-me p,
   h4 {
+    text-align: center;
+  }
+
+  .content img {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 52px;
+  }
+
+  .content h2 {
+    font-size: 30px;
+  }
+
+  .content p {
     text-align: center;
   }
 }
