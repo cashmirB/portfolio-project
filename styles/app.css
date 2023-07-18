@@ -90,6 +90,12 @@ img {
   font-size: 18px;
 }
 
+.content h5 {
+  font-family: var(--primary-font-family);
+  font-weight: normal;
+  font-size: 20px;
+}
+
 .recipe-photo img {
   width: 700px;
   display: block;
@@ -98,6 +104,10 @@ img {
 
 .content .about-banner {
   margin-bottom: 90px;
+}
+
+.content-recipe {
+  margin-bottom: 80px;
 }
 
 .about-banner .about-info {
@@ -117,6 +127,26 @@ img {
 
 hr {
   border-top: 1px dashed #67d5d2;
+}
+
+.contact-details {
+  padding: 60px 40px;
+}
+
+.contact-details h6 {
+  color: #662eed;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: left;
+}
+
+.contact-info a {
+  font-family: var(--primary-font-family);
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
 }
 
 @media (max-width: 810px) {
@@ -140,5 +170,34 @@ hr {
 
   .homepage img {
     width: 330px;
+  }
+
+  .content h1 {
+    font-size: 46px;
+  }
+
+  .content .about-info {
+    text-align: center;
+  }
+
+  .content h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .recipe-photo img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .contact-details h6 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .contact-info {
+    font-size: 14px;
+    text-align: center;
   }
 }
