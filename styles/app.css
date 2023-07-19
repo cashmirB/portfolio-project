@@ -188,6 +188,23 @@ hr {
   color: black;
 }
 
+footer {
+  background-color: #f9f7fe;
+  padding: 20px;
+}
+
+footer .logo {
+  max-width: 130px;
+}
+footer .social-link {
+  position: relative;
+  left: 35px;
+}
+footer .social-link a {
+  color: black;
+  margin-left: 30px;
+}
+
 @media (max-width: 810px) {
   nav li {
     margin-left: 15px;
