@@ -97,12 +97,32 @@ img {
   padding: 40px 0;
 }
 
+.content h3 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .content h4 {
   font-family: var(--primary-font-family);
   font-weight: bold;
   font-size: 24px;
   text-align: center;
   margin: 20px 0;
+}
+
+.content h5 {
+  font-family: var(--primary-font-family);
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.content h6 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .content p {
@@ -112,27 +132,6 @@ img {
   font-size: 18px;
   text-align: left;
   line-height: 2;
-}
-
-.content h3 {
-  font-family: var(--primary-font-family);
-  font-weight: bold;
-  font-size: 36px;
-  text-align: center;
-
-  margin-bottom: 50px;
-}
-
-.content h6 {
-  font-family: var(--primary-font-family);
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.content h5 {
-  font-family: var(--primary-font-family);
-  font-weight: normal;
-  font-size: 20px;
 }
 
 .recipe-photo img {
@@ -186,11 +185,13 @@ hr {
   font-weight: normal;
   font-size: 20px;
   color: black;
+  margin-left: 45px;
 }
 
 footer {
   background-color: #f9f7fe;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 footer .logo {
@@ -198,14 +199,29 @@ footer .logo {
 }
 footer .social-link {
   position: relative;
+  top: 7px;
   left: 35px;
 }
 footer .social-link a {
   color: black;
-  margin-left: 30px;
+  margin-right: 40px;
 }
 
-@media (max-width: 810px) {
+.dev {
+  text-align: center;
+  padding: 40px;
+  font-family: var(--secondary-font-family);
+}
+
+.dev a {
+  color: black;
+}
+
+.dev a:hover {
+  color: #662eed;
+}
+
+@media (max-width: 900px) {
   nav li {
     margin-left: 15px;
   }
@@ -239,6 +255,14 @@ footer .social-link a {
     font-size: 46px;
   }
 
+  .content p {
+    text-align: center;
+  }
+
+  .content h6 {
+    text-align: center;
+  }
+
   .content .about-info {
     text-align: center;
   }
@@ -262,5 +286,18 @@ footer .social-link a {
   .contact-info {
     font-size: 14px;
     text-align: center;
+  }
+
+  .contact-details i {
+    display: none;
+  }
+
+  .contact-info h5 {
+    text-align: center;
+    padding: 0 40px;
+  }
+
+  .contact-info a {
+    margin: 0;
   }
 }
