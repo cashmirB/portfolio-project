@@ -94,7 +94,7 @@ img {
   font-weight: bold;
   font-size: 64px;
   text-align: left;
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .content h3 {
@@ -154,7 +154,7 @@ img {
 
 .about-banner .follow-link {
   font-size: 18px;
-  padding: 40px 0;
+  padding: 20px 0;
   font-weight: bold;
   font-family: var(--primary-font-family);
 }
@@ -221,7 +221,7 @@ footer .social-link a {
   color: #662eed;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
   nav li {
     margin-left: 15px;
   }
