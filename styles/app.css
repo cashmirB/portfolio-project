@@ -289,6 +289,10 @@ footer .social-link a {
     margin: 0 auto;
   }
 
+  .contact-details {
+    padding: 5px 40px;
+  }
+
   .contact-details h6 {
     font-size: 16px;
     text-align: center;
